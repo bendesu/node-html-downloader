@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "Preserve",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "Bundler",
+    "declaration": true,
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "./dist"
+  },
+  "lib": ["es2015"],
+  "tsc-alias": {
+    "resolveFullPaths": true,
+    "verbose": false
+  },
+  "exclude": ["node_modules", "./dist/**/*"]
+}

@@ -1,0 +1,13 @@
+#modules
+node_modules
+
+#eslint
+eslint.config.*
+
+#ts
+src
+tsconfig.json
+
+#test
+dist/test
+dist/test.*
